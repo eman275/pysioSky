@@ -1,0 +1,16 @@
+export default {
+  step: 'Step',
+  company_details: 'Company Details',
+  basic_details: 'Basic Details',
+  additional_details: 'Additional Details',
+  fleet_details: 'Fleet Details',
+  select_method: 'Select a method',
+  insert_fleet_details: 'Insert Your Fleet Details',
+  quotations: 'Quotations',
+  quotes_list: 'Quotes List',
+  quote_customization: 'Quote Customization',
+  summary_payment: 'Summary & Payment',
+  required_details: 'Required Details',
+  review_policy_details: 'Review Policy Details',
+  summary_contract: 'Summary & Contract ',
+} as const

@@ -1,0 +1,23 @@
+export default {
+  cm: 'سم',
+  kg: 'كجم',
+  SAR: 'ر.س',
+  second: 'ثانية',
+  seconds: 'ثواني',
+  minute: 'دقيقة',
+  minutes: 'دقائق',
+  hour: 'ساعة',
+  hours: 'ساعات',
+  day: 'يوم',
+  days: 'أيام',
+  month: 'شهر',
+  months: 'أشهر',
+  year: 'سنة',
+  years: 'سنوات',
+  digits: 'أرقام',
+
+  monthly: 'شهريا',
+  quarterly: 'ربع سنويا',
+  semi_annually: 'نصف سنويا',
+  annually: 'سنويا',
+} as const

@@ -1,0 +1,16 @@
+export default {
+  step: 'خطوة',
+  company_details: 'تفاصيل المنشأه',
+  basic_details: 'التفاصيل الاساسية',
+  additional_details: 'التفاصيل الاضافية',
+  fleet_details: 'تفاصيل الاسطول',
+  select_method: 'اختر طريقة',
+  insert_fleet_details: 'أدخل تفاصيل أسطولك',
+  quotations: 'Quotations',
+  quotes_list: 'Quotes List',
+  quote_customization: 'Quote Customization',
+  summary_payment: 'Summary & Payment',
+  required_details: 'بيانات مطلوبة',
+  review_policy_details: 'مراجعة تفاصيل السياسة',
+  summary_contract: 'الملخص والعقد',
+} as const

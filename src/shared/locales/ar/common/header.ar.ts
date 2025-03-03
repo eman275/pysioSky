@@ -1,0 +1,15 @@
+export default {
+  products: 'المنتجات',
+  resources: 'الموارد',
+  lang: 'English',
+  login: 'الدخول',
+  register: 'التسجيل',
+  logout: 'تسجيل الخروج',
+  my_account: 'حسابي',
+  Services: 'الخدمات',
+  OurTeam: 'فريقنا',
+  AboutUs: 'من نحن',
+  FAQ: 'الأسئلة الشائعة',
+  ContactUs: 'اتصل بنا',
+  BookNow: 'احجز الآن',
+} as const

@@ -1,0 +1,204 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src:
+    local('Cairo ExtraLight'),
+    url('/fonts/Cairo-ExtraLight.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src:
+    local('Cairo Light'),
+    url('/fonts/Cairo-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src:
+    local('Cairo Regular'),
+    url('/fonts/Cairo-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src:
+    local('Cairo Medium'),
+    url('/fonts/Cairo-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src:
+    local('Cairo SemiBold'),
+    url('/fonts/Cairo-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src:
+    local('Cairo Bold'),
+    url('/fonts/Cairo-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src:
+    local('Cairo ExtraBold'),
+    url('/fonts/Cairo-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src:
+    local('Cairo Black'),
+    url('/fonts/Cairo-Black.ttf') format('truetype');
+}
+
+html * {
+  @apply leading-[150%];
+}
+
+@layer utilities {
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  /* Firefox */
+  input[type='number'] {
+    -moz-appearance: textfield;
+  }
+
+  .font-cairo {
+    font-family: Cairo, sans-serif;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: 700;
+    text-transform: capitalize;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1.375rem;
+  }
+
+  h4 {
+    font-size: 1.25rem;
+  }
+
+  h5 {
+    font-size: 1.125rem;
+  }
+
+  h6 {
+    font-size: 1rem;
+  }
+
+  small {
+    font-size: 0.75rem;
+  }
+
+  .flex-center {
+    @apply flex items-center justify-center;
+  }
+
+  .dir-rtl {
+    direction: rtl;
+  }
+
+  svg {
+    flex-shrink: 0;
+  }
+}
+
+.ant-picker-input {
+  direction: rtl;
+}
+
+.ant-picker .ant-picker-input input {
+  direction: ltr;
+}
+
+.ant-form-item {
+  margin-bottom: 0;
+}
+.ant-collapse .ant-collapse-content > .ant-collapse-content-box {
+  padding: 0 !important;
+}
+
+.ant-radio-wrapper .ant-radio-checked .ant-radio-inner::after {
+  opacity: 0 !important;
+}
+
+.ant-radio-wrapper .ant-radio-checked .ant-radio-inner {
+  border-color: #109bde !important;
+  background-color: #109bde !important;
+}
+.ant-radio-wrapper .ant-radio {
+  /* border: 2px solid #109BDE !important; 
+  border-radius: 50%;
+  padding: 2px; 
+  display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+.ant-radio-wrapper .ant-radio-checked::after {
+  border: 2px solid #109bde !important;
+  border-radius: 50%;
+  padding: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ant-checkbox-checked .ant-checkbox-inner {
+  border-color: #109bde !important;
+  background-color: #109bde !important;
+}
+.ant-checkbox-indeterminate .ant-checkbox-inner:after {
+  background-color: #109bde !important;
+}
+/* .ant-modal-root .ant-modal{
+  max-width: 100%;
+} */
