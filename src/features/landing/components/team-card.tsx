@@ -102,7 +102,7 @@ const MeetTheTeam = () => {
   ]
   return (
     <div>
-      <h1 className='my-5 text-center font-bold'>Meet the Team</h1>
+      <h1 className='my-5 text-center font-bold'> Meet the Team</h1>
       <div className='grid  grid-cols-3 gap-2 '>
         {ourTeam.map((item, index) => (
           <TeamCard
