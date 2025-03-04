@@ -13,6 +13,7 @@ import Link from 'next/link'
 import OurServicesSection from './components/our-services-section'
 import AssessmentProcess   from './components/assessment-process'
 import MeetTheTeam from './components/team-card'
+import LocateUs from './components/locate-us'
 
 
 export default async function Home() {
@@ -65,6 +66,7 @@ export default async function Home() {
         <OurServicesSection />
         <AssessmentProcess   />
         <MeetTheTeam />
+        <LocateUs/>
         {/* <WhyTameeni /> */}
         {/* <WhichInsurance /> */}
         {/* <ImpactList /> */}
