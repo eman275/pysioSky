@@ -32,7 +32,7 @@ const DynamicTitle = () => {
 
   return (
     <div className=' my-14 flex flex-col px-1 text-center lg:px-3 '>
-      <h1 className='text-[36px] font-bold md:text-xxl'>
+      <h1 className=' text-[24px]  lg:text-[36px] font-bold md:text-xxl'>
         {tLanding('page_title')}
         <span className='text-primary-1'>{dynamicTitle}</span>
       </h1>

@@ -103,7 +103,7 @@ const MeetTheTeam = () => {
   return (
     <div>
       <h1 className='my-5 text-center font-bold'> Meet the Team</h1>
-      <div className='grid  grid-cols-3 gap-2 '>
+      {/* <div className='grid  grid-cols-1 lg:grid-cols-3 gap-2 '>
         {ourTeam.map((item, index) => (
           <TeamCard
             name={item?.name}
@@ -112,6 +112,18 @@ const MeetTheTeam = () => {
             key={index}
           />
         ))}
+      </div> */}
+      <div className='flex justify-center'>
+        <div className='grid grid-cols-1 gap-2 lg:grid-cols-3'>
+          {ourTeam.map((item, index) => (
+            <TeamCard
+              name={item?.name}
+              role={item?.role}
+              src={item?.src}
+              key={index}
+            />
+          ))}
+        </div>
       </div>
     </div>
   )

@@ -3,7 +3,7 @@ import Timeline from "./time-line"
 
 const AssessmentProcess   = async () => {
   return (
-    <div className='relative bg-[#F8E6DA] pt-10 flex items-center justify-center flex-col'>
+    <div className='relative bg-[#F8E6DA] py-10 flex items-center justify-center flex-col'>
       {/* <svg
         className='absolute left-0 top-0 w-full'
         viewBox='0 0 1440 320'
@@ -15,10 +15,10 @@ const AssessmentProcess   = async () => {
         ></path>
       </svg> */}
 
-      <h1 className='relative z-10 text-center  text-primary-1 font-bold'>
+      <h1 className='relative z-10 text-center   text-xl lg:text-xxl text-primary-1 font-bold'>
         Driven by Science. Powered by Community.
       </h1>
-      <h6 className="text-center w-[50%] px-20">We work in collaboration with you and the people in your community, be it your coach, doctor or trainer to get you ready to take charge of your life by equipping you with skills to manage your injuries and pain.</h6>
+      <h6 className="text-center  w-full lg:w-[50%] px-20">We work in collaboration with you and the people in your community, be it your coach, doctor or trainer to get you ready to take charge of your life by equipping you with skills to manage your injuries and pain.</h6>
 
       <div className='mx-2 h-32 border-l-8 border-error-5 my-4'></div>
 

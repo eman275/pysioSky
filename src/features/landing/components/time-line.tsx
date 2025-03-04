@@ -55,13 +55,13 @@ const Timeline = () => {
 
   return (
     <div className="relative flex flex-col items-center justify-center py-10 bg-[#F8E6DA]">
-      <h1 className="text-center text-primary-1 font-bold">
+      <h1 className="text-center text-primary-1 font-bold  text-xl lg:text-xxl">
         Our Assessment Process
       </h1>
 
-      <div id="timeline" className="relative flex flex-col items-center mt-8">
+      <div id="timeline" className="relative flex flex-col items-center mt-0 lg:mt-8">
         {/* Timeline Line */}
-        <div className="absolute w-1 bg-red-500 h-full left-1/2 transform -translate-x-1/2"></div>
+        <div className="  hidden lg:absolute w-1 bg-red-500 h-full left-1/2 transform -translate-x-1/2"></div>
 
         {timelineData.map((item, index) => (
           <motion.div

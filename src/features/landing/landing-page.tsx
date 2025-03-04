@@ -21,7 +21,7 @@ export default async function Home() {
   return (
     <div className='relative min-h-screen py-4'>
       {/* <img
-      className='absolute left-0 top-0 z-10 h-[450px] h-full w-full object-cover opacity-[30%]'
+        className='absolute left-0 top-0 z-10 h-[450px] h-full w-full object-cover opacity-[30%]'
       alt='background'
       src='/images/Image (6).jpg'
     /> */}
