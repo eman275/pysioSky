@@ -2,18 +2,15 @@
 import useDisclosure from '@/shared/hooks/use-disclosure'
 import { useCurrentLocale, useScopedI18n } from '@/shared/locales/client'
 
-import { useRouter } from 'next/navigation'
 
-import { Sheet, SheetContent, SheetFooter, SheetHeader } from '../ui/sheet'
+import { Sheet, SheetContent, SheetHeader } from '../ui/sheet'
 
 import { HeaderLinks } from './header-links'
 import SocialMediaLinks from './social-media'
 import Link from 'next/link'
-import WhatsAppButton from './WhatsApp-btn'
 
 function BurgerMenu() {
   const t = useScopedI18n('common.header')
-  const router = useRouter()
   const locale = useCurrentLocale()
 
   const { isOpened, setIsOpened } = useDisclosure()
