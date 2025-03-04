@@ -61,7 +61,7 @@ const Timeline = () => {
 
       <div id="timeline" className="relative flex flex-col items-center mt-0 lg:mt-8">
         {/* Timeline Line */}
-        <div className="  hidden lg:absolute w-1 bg-red-500 h-full left-1/2 transform -translate-x-1/2"></div>
+        <div className="  hidden   lg:block absolute w-1 bg-red-500 h-full left-1/2 transform -translate-x-1/2"></div>
 
         {timelineData.map((item, index) => (
           <motion.div
@@ -69,7 +69,7 @@ const Timeline = () => {
             initial={{ opacity: 0, x: index % 2 === 0 ? -50 : 50 }}
             animate={isVisible ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.6, delay: index * 0.3 }}
-            className={`flex flex-col items-center w-full md:w-1/2 text-center px-6 py-6 ${
+            className={`flex flex-col items-center w-full md:w-1/2 text-center px-6  py-1 lg:py-6 ${
               index % 2 === 0 ? "self-start md:pr-10" : "self-end md:pl-10"
             }`}
           >

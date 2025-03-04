@@ -69,40 +69,40 @@ const MeetTheTeam = () => {
       role: 'Physiotherapist',
       src: 'https://images.squarespace-cdn.com/content/v1/5f3d0229481bc56aa3f29b27/af2e0ea2-398c-419a-b142-52cf0908882c/Ain.png',
     },
-    {
-      name: 'Nifail Zainal',
-      role: 'Physiotherapist',
-      src: 'https://images.squarespace-cdn.com/content/v1/5f3d0229481bc56aa3f29b27/ff816fd5-c93c-45e6-8973-765b15553e61/nifail.png',
-    },
-    {
-      name: 'Nifail Zainal',
-      role: 'Physiotherapist',
-      src: 'https://images.squarespace-cdn.com/content/v1/5f3d0229481bc56aa3f29b27/ff816fd5-c93c-45e6-8973-765b15553e61/nifail.png',
-    },
-    {
-      name: 'Nifail Zainal',
-      role: 'Physiotherapist',
-      src: 'https://images.squarespace-cdn.com/content/v1/5f3d0229481bc56aa3f29b27/ff816fd5-c93c-45e6-8973-765b15553e61/nifail.png',
-    },
-    {
-      name: 'Nifail Zainal',
-      role: 'Physiotherapist',
-      src: 'https://images.squarespace-cdn.com/content/v1/5f3d0229481bc56aa3f29b27/ff816fd5-c93c-45e6-8973-765b15553e61/nifail.png',
-    },
-    {
-      name: 'Nifail Zainal',
-      role: 'Physiotherapist',
-      src: 'https://images.squarespace-cdn.com/content/v1/5f3d0229481bc56aa3f29b27/ff816fd5-c93c-45e6-8973-765b15553e61/nifail.png',
-    },
-    {
-      name: 'Nifail Zainal',
-      role: 'Physiotherapist',
-      src: 'https://images.squarespace-cdn.com/content/v1/5f3d0229481bc56aa3f29b27/ff816fd5-c93c-45e6-8973-765b15553e61/nifail.png',
-    },
+    // {
+    //   name: 'Nifail Zainal',
+    //   role: 'Physiotherapist',
+    //   src: 'https://images.squarespace-cdn.com/content/v1/5f3d0229481bc56aa3f29b27/ff816fd5-c93c-45e6-8973-765b15553e61/nifail.png',
+    // },
+    // {
+    //   name: 'Nifail Zainal',
+    //   role: 'Physiotherapist',
+    //   src: 'https://images.squarespace-cdn.com/content/v1/5f3d0229481bc56aa3f29b27/ff816fd5-c93c-45e6-8973-765b15553e61/nifail.png',
+    // },
+    // {
+    //   name: 'Nifail Zainal',
+    //   role: 'Physiotherapist',
+    //   src: 'https://images.squarespace-cdn.com/content/v1/5f3d0229481bc56aa3f29b27/ff816fd5-c93c-45e6-8973-765b15553e61/nifail.png',
+    // },
+    // {
+    //   name: 'Nifail Zainal',
+    //   role: 'Physiotherapist',
+    //   src: 'https://images.squarespace-cdn.com/content/v1/5f3d0229481bc56aa3f29b27/ff816fd5-c93c-45e6-8973-765b15553e61/nifail.png',
+    // },
+    // {
+    //   name: 'Nifail Zainal',
+    //   role: 'Physiotherapist',
+    //   src: 'https://images.squarespace-cdn.com/content/v1/5f3d0229481bc56aa3f29b27/ff816fd5-c93c-45e6-8973-765b15553e61/nifail.png',
+    // },
+    // {
+    //   name: 'Nifail Zainal',
+    //   role: 'Physiotherapist',
+    //   src: 'https://images.squarespace-cdn.com/content/v1/5f3d0229481bc56aa3f29b27/ff816fd5-c93c-45e6-8973-765b15553e61/nifail.png',
+    // },
   ]
   return (
-    <div>
-      <h1 className='my-5 text-center font-bold'> Meet the Team</h1>
+    <div className='py-6'>
+      <h1 className='mb-5 text-center font-bold'> Meet the Team</h1>
       {/* <div className='grid  grid-cols-1 lg:grid-cols-3 gap-2 '>
         {ourTeam.map((item, index) => (
           <TeamCard

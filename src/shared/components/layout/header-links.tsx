@@ -1,7 +1,7 @@
 'use client'
 import Link from 'next/link'
 import React from 'react'
-import { CAR_INSURANCE_URL } from '@/shared/lib/constants'
+// import { CAR_INSURANCE_URL } from '@/shared/lib/constants'
 import { useScopedI18n } from '@/shared/locales/client'
 
 // type Props = {
@@ -13,32 +13,32 @@ export const HeaderLinks = () => {
   return (
     <div className=' flex flex-col items-center gap-3  lg:flex-row '>
       <Link
-        href={CAR_INSURANCE_URL}
+        href={''}
         className=' text-xxl lg:text-base  inset-x-0 m-auto w-28 font-bold text-primary-1 lg:relative '
       >
         {t('Services')}
       </Link>
 
       <Link
-        href={CAR_INSURANCE_URL}
+        href={''}
         className=' text-xxl lg:text-base  inset-x-0 m-auto w-28 font-bold text-primary-1 lg:relative '
       >
         {t('OurTeam')}
       </Link>
       <Link
-        href={CAR_INSURANCE_URL}
+        href={''}
         className=' text-xxl lg:text-base  inset-x-0 m-auto w-28 font-bold text-primary-1 lg:relative '
       >
         {t('AboutUs')}
       </Link>
       <Link
-        href={CAR_INSURANCE_URL}
+        href={''}
         className=' text-xxl lg:text-base  inset-x-0 m-auto w-28 font-bold text-primary-1 lg:relative '
       >
         {t('FAQ')}
       </Link>
       <Link
-        href={CAR_INSURANCE_URL}
+        href={''}
         className=' text-xxl lg:text-base  inset-x-0 m-auto w-28 font-bold text-primary-1 lg:relative '
       >
         {t('ContactUs')}

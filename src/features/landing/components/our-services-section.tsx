@@ -3,6 +3,7 @@ import Link from 'next/link'
 function OurServicesSection() {
   return (
     <div className='flex flex-col items-center justify-center pt-10'>
+      
       <h3 className='font-bold text-primary-1'>Our services includes</h3>
       <div className='mx-2 h-32 border-l-8 border-error-5'></div>
 
